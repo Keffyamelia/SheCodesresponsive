@@ -11,7 +11,7 @@
 } */
 
 .portfolio__wrapper {
-    padding: 30px;
+    padding: 15px;
     text-align: center;
     background-color: #f5f2fe;
     height: 100vh;
@@ -20,6 +20,7 @@
 .portfolio__intro {
     font-size: 42px;
     margin-top: 100px;
+    text-align: center;
 }
 
 .portfolio__name {
@@ -70,7 +71,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
-    padding: 60px;
+    padding: 60px; 
 }
 
 .image {
@@ -106,9 +107,8 @@
     line-height: 1.5;
     margin-bottom: 40px; 
     margin-right: 15px;
-    padding: 30px; 
-    max-width: 800px;
-    /* text-align: center; */
+    padding: 10px;
+    max-width: 400px; 
     
 }
 
@@ -127,4 +127,263 @@
 
 .link:hover {
     color: black;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+        height: 80vh;
+    }
+
+    .portfolio__contact {
+        display: block;
+        margin-top: 90px;
+    }
+
+    .portfolio__wrapper {
+        /* font-size: small;  */
+        text-align: center;
+        padding: 25px;
+        /* padding-left: 30px; */
+    }
+
+    .portfolio__intro {
+        font-size: 32px;
+        margin-top: 97px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .portfolio__name {
+        font-size: 38px;
+        text-align: center;
+        margin-left: 30px;
+        margin-top: 10px;
+    } 
+
+    .portfolio__description {
+        opacity: 1;
+        font-size: 16px;
+    }
+
+    .text--wrapper {
+        width: 100%;
+        display: block;
+        text-align: center; 
+        /* padding-left: 35px; */
+        /* margin-left: 35px;  */
+    }
+
+/* 
+    .text--wrapper {
+        width: 50%;
+        /* padding: 10px; 
+        gap: 17px;
+    } */
+
+    .image--direction {
+        display: block;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        /* border: 1px solid black; */
+    }
+    
+    .image {
+        width: 100%;
+        background-color: #f5f2fe;
+        padding: 10px; 
+    }
+
+    .my--image {
+        /* width: 50%;
+        flex: 0 0 auto; */
+        /* max-width: 400px; */
+        width: 100%;
+        height: auto;
+        box-shadow: 0 5px 10px rgba(0, 0 , 0, 0.3);
+    }
+
+    
+    .apple--text {
+        font-size: 48px;
+        margin-left: 5px;
+        /* padding: 20px; */
+    }
+    
+    .text {
+        display: block;
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 40px; 
+        margin-right: 15px;
+        /* padding: 10px; */
+        max-width: 400px; 
+        
+    }
+    
+    .apple--link {
+        padding: 30px;
+    }
+    
+    .link {
+        border: 1px solid #6c63ff;
+        color: #6c63ff;
+        text-decoration: none;
+        padding: 20px;
+        width: 120px;
+        font-size: 21px;
+    }
+    
+    .link:hover {
+        color: black;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
+
+    .container {
+        max-width: 100%;
+        /* margin: 0 auto; */
+        height: 100vh;
+    }
+
+    .portfolio__intro {
+        font-size: 36px;
+    }
+
+    .portfolio__name {
+        font-size: 36px;
+    }
+
+    .portfolio__description {
+        font-size: 32px;
+    }
+
+    .project--text {
+        font-size: 21px;
+        text-align: center;
+    }
+
+    .image--direction {
+        /* border: 1px solid red; */
+        display: block;
+        padding: 60px;
+    }
+
+    .image {
+        /* border: 1px solid red; */
+        width: 80%;
+    }
+/* 
+    .text--wrapper {
+        text-align: center;
+        padding: 60px;
+        width: 50%;
+    }
+
+    .text {
+        text-align: center;
+    } */
+
+
+    .text--wrapper {
+        width: 100%;
+        display: block;
+        text-align: center; 
+        padding-left: 35px; 
+        margin-left: 35px;  
+    }
+
+    .apple--text {
+        font-size: 48px;
+        /* margin-left: 5px; */
+    }
+    
+    .text {
+        display: block;
+        font-size: 21px;
+        line-height: 1.2;
+        margin-bottom: 40px; 
+        margin-right: 15px;
+        max-width: 800px;
+        /* text-align: center; */
+        
+    }
+    
+}
+ 
+@media only screen and (min-width: 1023px) and (max-width: 1200px) {
+
+    .container {
+        /* max-width: 80%; */
+        text-align: center;
+    }
+
+    .portfolio__name {
+        font-size: 30px;
+    }
+
+    .project--text {
+        font-size: 21px;
+    }
+
+    .image--container {
+        /* max-width: 800px; */
+        padding: 10px;
+        margin-bottom: 25px;
+        /* text-align: center; */
+        /* max-width: 100%; */
+    }
+    
+    .image--direction {
+        display: block;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        padding: 60px; 
+    }
+    
+    .image {
+        flex: 0 0 auto;
+        width: 60%;
+        background-color: #f5f2fe;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 55px;
+    }
+    
+    .my--image {
+        max-width: 400px;
+        height: auto;
+        box-shadow:  0 5px 10px rgba(0, 0 , 0, 0.3);
+    }
+    
+    .text--wrapper {
+        width: 50%;
+        padding: 10px;
+        gap: 17px;
+    }
+    
+    .apple--text {
+        font-size: 48px;
+        margin-left: 5px;
+        padding: 20px;
+    }
+    
+    .text {
+        display: block;
+        font-size: 18px;
+        line-height: 1.2;
+        margin-bottom: 40px; 
+        margin-right: 15px;
+        padding: 10px;
+        max-width: 400px; 
+        
+    }
+    
+    .apple--link {
+        padding: 30px;
+    }
+    
 }
